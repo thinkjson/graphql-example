@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "lib": [
+            "es2016",
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "target": "es2016",
+        "pretty": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "skipLibCheck": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
